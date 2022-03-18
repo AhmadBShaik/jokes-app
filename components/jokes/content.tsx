@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../common-components/Footer';
 import Header from '../common-components/Header'
+import Badges from './category-badges';
 
 const Content: React.FunctionComponent = () => {
     return (
@@ -8,8 +9,8 @@ const Content: React.FunctionComponent = () => {
             <div className='mx-auto container max-w-4xl'>
                 <Header/>
             </div>        
-            <div className='mx-auto container max-w-4xl flex-grow border border-red-800'>
-                code goes here
+            <div className='mx-auto container max-w-4xl flex-grow'>
+                <Badges/>         
             </div>
             <div>
                 <Footer/>
